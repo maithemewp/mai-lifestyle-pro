@@ -1,0 +1,124 @@
+/**
+ * Theme Name: 			Mai Lifestyle Pro
+ * Description: 		Mai Lifestyle Pro is a custom child theme for The Genesis Framework.
+ * Author: 				Mike Hemberger, BizBudding Inc
+ * Author URI: 			https://bizbudding.com/
+ * Version: 			1.0.0
+ *
+ * Template: 			genesis
+ *
+ * License: 			GPL-2.0+
+ * License URI: 		http://www.opensource.org/licenses/gpl-license.php
+ */
+
+
+/* Table of Contents
+
+	- Defaults
+	- Structure and Layout
+	- Common Classes
+	- Content Area
+		- Entry Meta
+	- Media Queries (mobile-first)
+	- Media Queries (mobile-second)
+
+*/
+
+
+/* # Defaults
+---------------------------------------------------------------------------------------------------- */
+
+/**
+ * Retina Logo
+ *
+ * If uploading double sized (retina) image,
+ * put exactly half the width in pixels for retina display.
+ * Example: Retina (2x) image is 360px by 90px, CSS should be:
+ * max-width: 180px;
+ */
+.wp-custom-logo .site-title a {
+	/* max-width: 180px; */
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-title a,
+.adjacent-entry-pagination a {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.author-box-title,
+.entry-comments h3,
+.comment-respond h3,
+.widget-title {
+	font-weight: 700;
+}
+
+.sidebar .widget-title {
+	text-align: center;
+	margin-bottom: 32px;
+}
+
+/* # Structure and Layout
+---------------------------------------------------------------------------------------------------- */
+
+
+/* # Common Classes
+---------------------------------------------------------------------------------------------------- */
+
+.image-bg .inner {
+	border: 6px solid rgba(0,0,0,0.075);
+}
+
+.breadcrumb {
+	-webkit-font-smoothing: antialiased;
+}
+
+/* # Content Area
+---------------------------------------------------------------------------------------------------- */
+
+/* ## Entry Meta
+--------------------------------------------- */
+
+.entry-footer .entry-meta {
+	border-top: 1px solid #ebe9eb;
+}
+
+.flex-entry .entry-footer .entry-meta {
+	margin-top: 20px;
+}
+
+.entry-comments .comment-meta {
+	-webkit-font-smoothing: antialiased;
+}
+
+/* # Media Queries (mobile-first)
+---------------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 1160px) {}
+
+@media only screen and (min-width: 993px) {}
+
+@media only screen and (min-width: 769px) {}
+
+@media only screen and (min-width: 545px) {}
+
+/* # Media Queries (mobile-second)
+---------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1159px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 544px) {}
