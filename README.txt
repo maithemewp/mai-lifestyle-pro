@@ -12,5 +12,8 @@ Please visit http://support.maipro.io/ for theme support.
 
 CHANGELOG
 
+= 1.0.1 =
+* Update dependency loader with new repo location.
+
 = 1.0.0 =
 * Initial release.
