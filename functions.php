@@ -3,7 +3,7 @@
 // Child theme (Do not remove!)
 define( 'CHILD_THEME_NAME', 'Mai Lifestyle Pro' );
 define( 'CHILD_THEME_URL', 'https://maipro.io/' );
-define( 'CHILD_THEME_VERSION', '1.0.1' );
+define( 'CHILD_THEME_VERSION', '1.0.2' );
 
 // Support the Mai Pro Engine (Do not remove!)
 add_theme_support( 'mai-pro-engine' );
