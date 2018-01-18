@@ -3,7 +3,7 @@
  * Description:         Mai Lifestyle Pro is a custom child theme for The Genesis Framework.
  * Author:              Mike Hemberger, BizBudding Inc
  * Author URI:          https://bizbudding.com/
- * Version:             1.0.2
+ * Version:             1.1.0
  *
  * Template:            genesis
  *
@@ -41,11 +41,10 @@
 }
 
 body {
-	font-family: 'Lato', sans-serif;
-	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -53,48 +52,49 @@ h5,
 h6,
 .site-title a,
 .adjacent-entry-pagination a {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Muli', sans-serif;
+	font-weight: 200;
+}
+
+.banner-area .archive-title,
+.banner-area .author-box-title,
+.banner-area .entry-title,
+.heading,
+h1 {
+	font-family: 'Playfair Display', serif;
 }
 
 .author-box-title,
 .entry-comments h3,
 .comment-respond h3,
-.widget-title {
-	font-weight: 700;
+.widget-title,
+.related > h2,
+.up-sells > h2 {
+	font-family: 'Playfair Display', serif;
 }
 
 .sidebar .widget-title {
 	text-align: center;
-	margin-bottom: 32px;
-}
-
-/* # Structure and Layout
----------------------------------------------------------------------------------------------------- */
-
-/* # Common Classes
----------------------------------------------------------------------------------------------------- */
-
-.image-bg .inner {
-	border: 6px solid rgba(0,0,0,0.075);
-}
-
-.breadcrumb {
-	-webkit-font-smoothing: antialiased;
 }
 
 /* # Content Area
 ---------------------------------------------------------------------------------------------------- */
 
+.adjacent-entry-pagination a,
+.after-entry .widget,
+.author-box,
+.comment-respond,
+.entry,
+.entry-comments,
+.entry-pings,
+.sidebar .widget,
+.sticky-header.scroll .site-header {
+	-webkit-box-shadow: 0 4px 24px rgba(0,0,0,0.025);
+	box-shadow: 0 4px 24px rgba(0,0,0,0.025);
+}
+
 /* ## Entry Meta
 --------------------------------------------- */
-
-.entry-footer .entry-meta {
-	border-top: 1px solid #ebe9eb;
-}
-
-.flex-entry .entry-footer .entry-meta {
-	margin-top: 20px;
-}
 
 .entry-comments .comment-meta {
 	-webkit-font-smoothing: antialiased;
