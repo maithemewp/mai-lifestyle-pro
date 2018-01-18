@@ -4,6 +4,7 @@
 define( 'CHILD_THEME_NAME', 'Mai Lifestyle Pro' );
 define( 'CHILD_THEME_URL', 'https://maitheme.com/' );
 define( 'CHILD_THEME_VERSION', '1.1.0' );
+define( 'MAI_THEME_SP', true );
 
 // Support the Mai Theme Engine (Do not remove!).
 add_theme_support( 'mai-theme-engine' );
