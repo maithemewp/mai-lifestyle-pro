@@ -3,7 +3,7 @@
  * Description:         Mai Lifestyle Pro is a custom child theme for The Genesis Framework.
  * Author:              Mike Hemberger, BizBudding Inc
  * Author URI:          https://bizbudding.com/
- * Version:             1.1.1
+ * Version:             1.2.0
  *
  * Template:            genesis
  *
@@ -56,7 +56,9 @@ h6,
 	font-weight: 200;
 }
 
-.banner-area .banner-title,
+.banner-area .archive-title,
+.banner-area .author-box-title,
+.banner-area .entry-title,
 .heading,
 h1 {
 	font-family: 'Playfair Display', serif;
