@@ -3,7 +3,7 @@
 // Child theme (Do not remove!).
 define( 'CHILD_THEME_NAME', 'Mai Lifestyle Pro' );
 define( 'CHILD_THEME_URL', 'https://maitheme.com/' );
-define( 'CHILD_THEME_VERSION', '1.1.1' );
+define( 'CHILD_THEME_VERSION', '1.2.0' );
 define( 'MAI_THEME_SP', true );
 
 // Support the Mai Theme Engine (Do not remove!).
@@ -14,7 +14,7 @@ add_theme_support( 'mai-theme-engine' );
  * This auto-installs Mai Theme Engine plugin,
  * which is required for the theme to function properly.
  *
- * @version 1.3.2
+ * @version 1.4.4
  */
 require_once 'includes/dependencies/wp-dependency-installer.php';
 WP_Dependency_Installer::instance()->run( dirname( __FILE__ ) . '/includes/dependencies' );
@@ -44,7 +44,7 @@ add_filter( 'genesis_footer_creds_text', 'maitheme_site_footer_text' );
 function maitheme_site_footer_text( $text ) {
 	$url  = 'https://maitheme.com/';
 	$name = 'Mai Theme';
-	return sprintf( 'Copyright &copy; %s <a href="%s" title="%s">%s</a> &middot; All Rights Reserved &middot; Powered by <a rel="nofollow" href="%s">%s</a>',
+	return sprintf( 'Copyright &copy; %s <a href="%s" title="%s">%s</a> &middot; All Rights Reserved &middot; Powered by <a rel="nofollow noopener" href="%s">%s</a>',
 		date('Y'),
 		get_bloginfo('url'),
 		get_bloginfo('name'),
