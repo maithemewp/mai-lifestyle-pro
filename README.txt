@@ -12,6 +12,12 @@ Please visit http://support.maitheme.com/ for theme support.
 
 CHANGELOG
 
+= 1.2.0
+* Added: noopener rel tag to footer credits.
+* Changed: Updated dependency installer to latest version.
+* Changed: More refined banner title CSS.
+* Changed: Update screenshot.
+
 = 1.1.0
 * Changed: New default fonts.
 * Changed: Dependency now points to the final location for Mai Theme Engine.

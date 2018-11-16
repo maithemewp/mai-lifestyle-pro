@@ -14,7 +14,7 @@ add_theme_support( 'mai-theme-engine' );
  * This auto-installs Mai Theme Engine plugin,
  * which is required for the theme to function properly.
  *
- * @version 1.4.4
+ * @version 1.4.6
  */
 require_once 'includes/dependencies/wp-dependency-installer.php';
 WP_Dependency_Installer::instance()->run( dirname( __FILE__ ) . '/includes/dependencies' );
