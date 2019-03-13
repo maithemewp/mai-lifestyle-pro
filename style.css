@@ -28,18 +28,6 @@
 /* # Defaults
 ---------------------------------------------------------------------------------------------------- */
 
-/**
- * Retina Logo
- *
- * If uploading double sized (retina) image,
- * put exactly half the width in pixels for retina display.
- * Example: Retina (2x) image is 360px by 90px, CSS should be:
- * max-width: 180px;
- */
-.wp-custom-logo .site-title a {
-	/* max-width: 180px; */
-}
-
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -56,14 +44,9 @@ h6,
 	font-weight: 200;
 }
 
-.banner-area .archive-title,
-.banner-area .author-box-title,
-.banner-area .entry-title,
+h1,
+.banner-title,
 .heading,
-h1 {
-	font-family: 'Playfair Display', serif;
-}
-
 .author-box-title,
 .entry-comments h3,
 .comment-respond h3,
@@ -103,13 +86,13 @@ h1 {
 /* # Media Queries (mobile-first)
 ---------------------------------------------------------------------------------------------------- */
 
-@media only screen and (min-width: 1160px) {}
-
-@media only screen and (min-width: 993px) {}
+@media only screen and (min-width: 545px) {}
 
 @media only screen and (min-width: 769px) {}
 
-@media only screen and (min-width: 545px) {}
+@media only screen and (min-width: 993px) {}
+
+@media only screen and (min-width: 1160px) {}
 
 /* # Media Queries (mobile-second)
 ---------------------------------------------------------------------------------------------------- */
