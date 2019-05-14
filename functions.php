@@ -17,6 +17,7 @@ add_theme_support( 'mai-theme-engine' );
  * composer require afragen/wp-dependency-installer
  */
 include_once( __DIR__ . '/vendor/autoload.php' );
+add_filter( 'pand_theme_loader', '__return_true' );
 WP_Dependency_Installer::instance()->run( __DIR__ );
 
 // Don't do anything else if the Mai Theme Engine plugin is not active.
